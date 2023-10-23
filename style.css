@@ -170,6 +170,10 @@ h1 {
     gap: .5rem;
 }
 
+.quoteDes {
+    color: var(--Desaturated_Blue);
+}
+
 .author {
     display: flex;
     align-items: center;
