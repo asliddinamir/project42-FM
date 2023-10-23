@@ -97,7 +97,7 @@ h1 {
 }
 
 .heroBtn {
-    width: 40%;
+    min-width: 140px;
     font-family: inherit;
     padding: .8rem 1rem;
     background-color: var(--Bright_Blue);
@@ -298,7 +298,6 @@ h1 {
 }
 
 #icons i {
-    margin-inline: .5rem;
     padding: 10px 11px;
     border: 2px solid #fff;
     cursor: pointer;
