@@ -250,3 +250,82 @@ h1 {
 .access_form input:hover {
     outline: none;
 }
+
+.footer {
+    min-height: 50vh;
+    background-color: var(--Very_Dark_Blue);
+    color: #fff;
+}
+
+.footer_inner {
+    padding: 4rem 6rem;
+}
+
+.footer_inner img {
+    filter: brightness(0) invert(1) grayscale(1);
+}
+
+.fi {
+    margin-top: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.fii {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fii a {
+    text-decoration: none;
+    color: #fff;
+    margin-block: .4rem;
+    font-size: 16px;
+    color: var(--Light_Grayish_Blue);
+}
+
+.fiis {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+}
+
+#icons i {
+    margin-inline: .5rem;
+    padding: 10px 11px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+#facebook {
+    padding: 10px 14px !important;
+}
+
+#icons i:hover {
+    color: var(--Bright_Blue);
+    border: 2px solid var(--Bright_Blue);
+}
+
+.attribution {
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    padding-block: .3rem;
+    text-align: center;
+    background-color: var(--Desaturated_Blue);
+    width: 100%;
+}
+
+.attribution a {
+    color: red;
+}
