@@ -324,7 +324,7 @@ h1 {
     color: #fff;
     position: fixed;
     bottom: 0;
-    padding-block: .3rem;
+    padding: .3rem;
     text-align: center;
     background-color: var(--Desaturated_Blue);
     width: 100%;
@@ -347,11 +347,11 @@ h1 {
     }
 
     .hero_body img {
-        width: 90%;
+        width: 95%;
     }
 
     .hero_info {
-        width: 90%;
+        width: 95%;
     }
 
     .form {
@@ -365,7 +365,7 @@ h1 {
     }
 
     .curve_info {
-        width: 90%;
+        width: 95%;
     }
 
     .curve_info p {
@@ -373,7 +373,7 @@ h1 {
     }
 
     .curveImg {
-        width: 90%;
+        width: 95%;
     }
 
     .access {
@@ -403,5 +403,41 @@ h1 {
     #icons {
         width: 100%;
         justify-content: center;
+    }
+}
+
+@media(max-width:480px) {
+
+    .hero,
+    .curve,
+    .access {
+        padding-inline: 1rem;
+    }
+
+    .nav a {
+        font-size: 12px;
+        margin-inline: .3rem;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    h1,
+    .access_info h1 {
+        font-size: 25px;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .form input,
+    .heroBtn {
+        width: 100%;
+    }
+
+    .quote {
+        width: 100%;
     }
 }
