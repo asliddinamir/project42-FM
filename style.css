@@ -112,3 +112,93 @@ h1 {
 .heroBtn:hover {
     opacity: .7;
 }
+
+.curve {
+    background: url('./images/bg-curve-mobile.svg') no-repeat top center/cover;
+    min-height: 90vh;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 6rem;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.curve_info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+    overflow: visible;
+}
+
+.curve_info p {
+    font-family: var(--open_sans);
+    color: var(--Desaturated_Blue);
+    font-weight: 600;
+    width: 85%;
+    line-height: 1.5;
+}
+
+.curve_info span {
+    font-family: var(--open_sans);
+    color: var(--Moderate_Cyan);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-bottom: 2px solid var(--Moderate_Cyan);
+    width: 170px;
+    cursor: pointer;
+}
+
+.curve_info span:hover {
+    opacity: .7;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 300px;
+    font-size: 14px;
+    font-family: var(--open_sans);
+    gap: .5rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.author_info {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    gap: .3rem;
+    font-family: var(--raleway);
+}
+
+.author_info h5 {
+    font-weight: bold;
+}
+
+.author_info small {
+    font-family: var(--open_sans);
+    font-size: 10px;
+}
+
+.curveImg {
+    width: 55%;
+}
